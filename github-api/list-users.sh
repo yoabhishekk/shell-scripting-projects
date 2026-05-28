@@ -41,7 +41,7 @@ function list_users_with_read_access {
 
                 if [ $# -ne $expected_cmd_args ]; then
                 echo "Please excuted the script with required cmd args"
-                echo ""
+                echo "Usage: ./list-users.sh <repo_owner> <repo_name>"
                 exit 1
         fi
 
